@@ -7,7 +7,7 @@ export const Services = () => {
     let html = ""
 
     for (const service of services) {
-        html += `${service.name}`
+        html += `<p id="service--${service.id}">${service.name}</p>`
     }
 
     return html

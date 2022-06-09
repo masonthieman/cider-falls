@@ -8,18 +8,24 @@ const mainContainer = document.querySelector('#container')
 
 const applicationHTML = `
 <h1>Cider Falls</h1>
-    <section class="areas--list">
+<article class="details">
+    <section class="areas">
         <h2>Areas</h2>
         ${Areas()}
     </section>
+    <aside class="guests>
+        <section class="guests--list">
+            <h2>Guests</h2>
+            ${Guests()}
+        </section>
+    </aside>
+</article>
     <section class="services--list">
         <h2>Services</h2>
         ${Services()}
     </section>
-    <section class="guests--list">
-        <h2>Guests</h2>
-        ${Guests()}
-    </section>
+
+    
 `
 
 mainContainer.innerHTML = applicationHTML

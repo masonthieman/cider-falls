@@ -189,7 +189,7 @@ const database = {
         areaId: 3
 
     }, {
-        serviceId: 10,
+        serviceId: 5,
         areaId: 3
 
     },  {
@@ -242,5 +242,5 @@ export const getGuests = () => {
 }
 
 export const getServicesInAreas = () => {
-    return database.servicesInAreas.map(serviceInArea => ({...servicesInArea}))
+    return database.servicesInAreas.map(serviceInArea => ({...serviceInArea}))
 }

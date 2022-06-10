@@ -11,6 +11,10 @@
     border: 1px dotted goldenrod;
 }
 
+.services--list {
+    display: inline
+}
+
 .orders {
     padding: 1rem 5rem;
 }

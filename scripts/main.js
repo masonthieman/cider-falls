@@ -8,9 +8,9 @@ const mainContainer = document.querySelector('#container')
 
 const applicationHTML = `
 <h1>Cider Falls</h1>
-<section class="services--list">
+<sectionclass="services--list">
         
-        <p>Park services:${Services()}</p>
+        <span>Park services:</span>${Services()}
 </section>
 <article class="details">
     <section class="areas">
